@@ -13,7 +13,7 @@ public class factorialOfNumber {
     }
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
-        System.out.print("Enter the Number:");
+        System.out.print("Enter  Number:");
         int n=sc.nextInt();
         int ans=calculateFactorial(n);
         System.out.println("Factorial of "+n+" is: "+ans);
